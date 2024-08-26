@@ -1,0 +1,62 @@
+footer {
+    background-color: #F52549;
+    padding: 2rem 0;
+    color: white;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: -80px;
+}
+
+.col {
+    width: 100%;
+    margin: auto;
+}
+
+.copyright {
+   
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+#go-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 100;
+}
+
+#go-top a {
+    
+    color: #112311;
+    font-size: 2rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+    /* Add transform transition */
+    font-weight: 600;
+    animation: bounce 1s infinite;
+    /* Rename animation for clarity */
+}
+
+#go-top a:hover {
+    color: rgb(205, 192, 14);
+    transform: translateY(-5px);
+    /* Subtle hover effect */
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(-10px);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
+@media screen and (max-width: 1280px) {
+    
+}
