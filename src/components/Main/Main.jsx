@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Main.css';
 import Photo from '../../assets/image.jpg';
-import Print from '../../assets/print.png';
+import Print from '../../assets/Print.png';
 import github from '../../assets/github.jpg';
 import cars from '../../assets/cars.png';
 import shopper from '../../assets/shopper.jpg';
