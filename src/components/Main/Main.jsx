@@ -9,8 +9,7 @@ import { BsTwitter, BsGithub } from 'react-icons/bs';
 import { LiaLinkedin } from 'react-icons/lia';
 import { FcIdea } from 'react-icons/fc';
 import { BiCode, BiCodeCurly } from 'react-icons/bi';
-// import back_white from '../../assets/back_white.jpg'
-// import back from '../../assets/back.jpg'
+
 
 function Main({state:dark}) {
   const [loading,setloading] = useState(false);
